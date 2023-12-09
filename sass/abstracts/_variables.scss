@@ -1,0 +1,18 @@
+.light {
+    --clr-bg: #fcfcfc;
+    --clr-bg-alt: #fff;
+    --clr-fg: #000d80;
+    --clr-fg-alt: #e60101444;
+    --clr-primary: #9d1010;
+    --shadow: rgba(255, 156, 156, 0.174) 0px 7px 29px 0px;
+  }
+  
+  .dark {
+    --clr-bg: #010013;
+    --clr-bg-alt: #810000;
+    --clr-fg: #ffffff;
+    --clr-fg-alt: #effffff;
+    --clr-primary: rgb(255, 63, 63);
+    --shadow: rgba(227, 4, 4, 0.052) 0px 10px 36px 0px,
+      rgba(44, 43, 43, 0.06) 0px 0px 0px 1px;
+  }
