@@ -83,30 +83,30 @@ document.addEventListener('scroll', scrollUp)
 
 //carousel
 
-const carouselItems = document.querySelectorAll('.carousel-item');
-let currentIndex = 0;
+const carouPics = document.querySelectorAll('.carousel-item');
+let currentPic = 0;
 
-function showSlide(index) {
+function showPic(index) {
 
-  carouselItems.forEach(item => {
+	carouPics.forEach(item => {
     item.style.display = 'none';
   });
 
 
-  carouselItems[index].style.display = 'block';
+  carouPics[index].style.display = 'block';
 }
 
-function nextSlide() {
-  currentIndex = (currentIndex + 1) % carouselItems.length;
-  showSlide(currentIndex);
+function nextPic() {
+  currentPic = (currentPic + 1) % carouPics.length;
+  showPic(currentPic);
 }
 
-function previousSlide() {
-  currentIndex = (currentIndex - 1 + carouselItems.length) % carouselItems.length;
-  showSlide(currentIndex);
+function previousPic() {
+  currentPic = (currentPic - 1 + carouPics.length) % carouPics.length;
+  showPic(currentPic);
 }
 
-showSlide(currentIndex);
+showPic(currentPic);
 
-document.getElementById('nextBtn').addEventListener('click', nextSlide);
-document.getElementById('prevBtn').addEventListener('click', previousSlide);
+document.getElementById('nextBtn').addEventListener('click', nextPic);
+document.getElementById('prevBtn').addEventListener('click', previousPic);
