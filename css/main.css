@@ -28,7 +28,7 @@ body {
   --clr-fg: #000d80;
   --clr-fg-alt: #e60101444;
   --clr-primary: #9d1010;
-  --shadow: rgba(255, 156, 156, 0.174) 0px 7px 29px 0px;
+  --shadow: rgba(255, 134, 134, 0.293) 0px 7px 29px 0px;
 }
 
 .dark {
@@ -37,8 +37,8 @@ body {
   --clr-fg: #ffffff;
   --clr-fg-alt: #effffff;
   --clr-primary: rgb(255, 63, 63);
-  --shadow: rgba(227, 4, 4, 0.052) 0px 10px 36px 0px,
-    rgba(44, 43, 43, 0.06) 0px 0px 0px 1px;
+  --shadow: rgba(255, 32, 32, 0.108) 0px 10px 36px 0px,
+    rgba(255, 61, 61, 0.06) 0px 0px 0px 1px;
 }
 
 ::-moz-selection {
@@ -83,6 +83,7 @@ ul {
 a {
   text-decoration: none;
 }
+
 
 button {
   cursor: pointer;
@@ -223,6 +224,7 @@ main {
 }
 
 .section p {
+  font-size: 20px;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -265,9 +267,10 @@ main {
 }
 
 .about__desc {
-  font-size: 1rem;
+  font-size: 1.2rem;
   max-width: 600px;
 }
+
 
 .about__desc,
 .about__contact {
@@ -349,6 +352,7 @@ main {
 }
 
 .contact-sub p {
+  font-size: 22px;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -357,6 +361,7 @@ main {
   margin-left: 30px;
 }
 .contact-form input {
+  font-size: 22px;
   background-color: var(--clr-bg);
   border-bottom: 1px solid var(--clr-fg);
   color: var(--clr-fg);
@@ -365,6 +370,7 @@ main {
 }
 
 .contact-form textarea {
+  font-size: 22px;
   background-color: var(--clr-bg);
   border-bottom: 1px solid var(--clr-fg);
   color: var(--clr-fg);
